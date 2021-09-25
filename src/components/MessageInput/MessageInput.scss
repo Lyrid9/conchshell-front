@@ -1,0 +1,25 @@
+.message-input {
+  width: flex;
+  border-radius: 15px;
+  background-color: rgb(24, 24, 24);
+  color: #aaaaaa;
+  border: none;
+  &:active,
+  &:focus {
+    color: #aaaaaa;
+    background-color: rgb(24, 24, 24);
+  }
+}
+
+.myContainer{
+  width: 1000px;
+  height: 60px;
+  display: flex;
+  
+
+}
+
+.message-btn{
+  width: flex;
+  
+}

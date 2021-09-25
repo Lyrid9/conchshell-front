@@ -1,11 +1,10 @@
-import logo from "./../../logo.svg";
-
+import MessageBox from "../../components/MessageBox/MessageBox";
+import "./Home.scss";
 function Home() {
   return (
-    <>
-      <h1 style={{ textAlign: "center" }}>This is the home page</h1>
-      <img src={logo} className="App-logo" alt="logo" />
-    </>
+    <div className="home-section">
+      <MessageBox />
+    </div>
   );
 }
 
